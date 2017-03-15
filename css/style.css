@@ -1,5 +1,4 @@
-/* font-family: 'Clicker Script', cursive;
-font-family: 'Playfair Display', serif;
+/*font-family: 'Playfair Display', serif;
 font-family: 'Anton', sans-serif;
 font-family: 'Ubuntu', sans-serif;*/
 
@@ -11,7 +10,6 @@ font-family: 'Ubuntu', sans-serif;*/
 
 .logo {
 	padding: 20px;
-/*	background-color: rgba(180,155,125,0.4); */
 }
 
 .background {
@@ -27,6 +25,7 @@ font-family: 'Ubuntu', sans-serif;*/
 }
 
 #portada nav a {
+	font-family: 'Playfair Display', serif;
 	color: #6C483E;
 	text-decoration: none;
 }
@@ -43,6 +42,7 @@ font-family: 'Ubuntu', sans-serif;*/
 #portada h2{
 	color: white;
 	font-size: 20px;
+	padding: 60px 0;
 }
 
 #portada h2:before{
@@ -50,15 +50,6 @@ font-family: 'Ubuntu', sans-serif;*/
 	color: white;
 	font-size: 20px;
 }
-
-#portada button {
-	padding: 15px 30px;
-	border-radius: 10px;
-	margin-left: 630px;
-	margin-bottom: 90px;
-	background-color: #F6C6EA;
-}
-
 
 /* Comienzo Carrusel */
 
@@ -69,13 +60,13 @@ font-family: 'Ubuntu', sans-serif;*/
      height: 240px;
      position: relative;
      margin: 0 auto 40px;
-/*   border: 1px solid #CCC; */
      perspective: 2100px;
      margin-bottom: 100px;
    }
 .titulo {
+	font-family: 'Anton', sans-serif;
 	font-size: 25px;
-	margin-top: 40px;
+	margin-top: 80px;
 	margin-bottom: 130px;
 	text-align: center;
 } 
@@ -144,18 +135,26 @@ hr {
 }
 
 /*Comienzo productos*/
-
 #descripcion h2 {
-	margin-top: 60px;
+	font-family: 'Ubuntu', sans-serif;
+	margin-top: 80px;
 	margin-bottom: 60px;
 	font-size: 35px;
 }
 
-#descripcion button {
-	padding: 6px 15px;
-	margin-top: 10px;
+#descripcion p {
+	margin-bottom: 30px;
 }
 
+#descripcion a {
+	text-decoration: none;
+	background-color: #E5E8E8;
+	padding: 6px 15px;
+	color:black;
+	border: 1px solid grey;
+	border-radius: 5px;
+	font-size: 17px;
+}
  .camara {
  	display: table-cell;
  }
@@ -191,10 +190,6 @@ hr {
 
 
 /*Final productos*/
-
-
-
-
 
 /*Comienzo del footer*/
 .footer {
@@ -265,6 +260,36 @@ hr {
   margin-bottom: 15px;
   display: inline;
 }
-
-
 /*Final del footer*/
+
+/*Comienzo Página Precios*/
+
+
+table {
+  width: 100%;
+}
+
+th {
+  background: #DC7633  ;
+  color: white;
+  padding: 10px 20px;
+  text-align: left;
+}
+
+td {
+  padding: 20px;
+}
+
+table, td, th {
+  border: 1px solid #D35400;
+  border-collapse: collapse;
+}
+
+input, textarea {
+  outline: 0;
+}
+
+input:focus, textarea:focus {
+  background: lightgray;
+}
+/*Final Página Precios*/
